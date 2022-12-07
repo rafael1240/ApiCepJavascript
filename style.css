@@ -1,3 +1,6 @@
+:root{
+    --corPadrao: #ccb532;
+}
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #334b5e;
@@ -6,7 +9,7 @@ H1{
     margin-top:30px;
 }
 body{
-    background-color: #6492b8;
+    background-color: var(--corPadrao);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,13 +28,13 @@ body{
     border: 1px solid #929292;
 }
 #container_search > input{
-    border: 2px solid #6492b8;
+    border: 2px solid var(--corPadrao);
     border-radius: 20px;
     width: 200px;
     height: 30px;
 }
 #container_search > button{
-    background-color: #6492b8;
+    background-color: var(--corPadrao);
     border: none;
     padding: 10px 85px;
     color: white;
